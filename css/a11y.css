@@ -1,0 +1,20 @@
+.offscreen {
+  position: absolute;
+  left: -1000px;
+}
+
+.skip-link {
+  position: absolute;
+  top: -999px;
+  left: 0;
+  background: #000;
+  padding: 0;
+  z-index: 1;
+  color: #fff;
+}
+
+.skip-link:focus,
+.skip-link:active {
+  top: auto;
+  left: auto;
+}/*# sourceMappingURL=a11y.css.map */
